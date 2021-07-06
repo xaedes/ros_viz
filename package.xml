@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros_viz</name>
+  <version>0.0.0</version>
+  <description>visualizations tools</description>
+
+  <maintainer email="xaedes@gmail.com">xaedes</maintainer>
+  <license>MIT</license>
+  <author email="xaedes@gmail.com">xaedes</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <depend>ros_cmake</depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>  
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>visualization_msgs</depend>
+
+</package>
